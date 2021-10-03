@@ -1,7 +1,7 @@
-# boilerplate-npm-tailwind
-* main entry point is `main.js`
+# Tailwind CSS UI for Immersive Reader
+* main entry point is `bundle.js`
 
-A boilerplate npm project for generating TailwindCSS HTML using npm and a build toolchain. Using:
+An npm project for demonstrating Azure Immersive Reader using TailwindCSS. Using:
 * `node-sass` which compiles `.scss` files in CSS
 * `autoprefixer` & `postcss-cli` to add vendor prefixes to compiled CSS
 * `stylelint` to check for errors in CSS
@@ -38,6 +38,7 @@ A boilerplate npm project for generating TailwindCSS HTML using npm and a build 
 * JQuery file is now ignored as part of the build process by residing in its own directory
 * `CopyWebpackPlugin` is used to pass the file through to `/dist` without transformation taking place
 * bundles two types of Javascript, JQuery is unchanged and passed through whilst regular Javascript is transformed and combined through webpack
-* **CORS error occurs on the immersive reader API endpoint as the UI component is not residing in the same location as the API endpoint**
 
+## Todo
+* Replace JQuery support
 
