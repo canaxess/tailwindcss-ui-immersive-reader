@@ -1,7 +1,7 @@
 # boilerplate-npm-tailwind
 * main entry point is `main.js`
 
-A boilerplate npm project for generating HTML using npm and a build toolchain. Using:
+A boilerplate npm project for generating TailwindCSS HTML using npm and a build toolchain. Using:
 * `node-sass` which compiles `.scss` files in CSS
 * `autoprefixer` & `postcss-cli` to add vendor prefixes to compiled CSS
 * `stylelint` to check for errors in CSS
