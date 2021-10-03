@@ -39,7 +39,7 @@ function handleLaunchImmersiveReader() {
     const data = {
         title: "Immersive Reader",
         chunks: [{
-            content: "test",
+            content: $("#content").text(),
             mimeType: "text/html",
             lang: "en"
         }]
