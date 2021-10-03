@@ -34,9 +34,9 @@ An npm project for demonstrating Azure Immersive Reader using TailwindCSS. Using
 2. run `npm run build` to build to the output `/dist` directory
 
 ## Notes
-* Turned off `no-unused-vars`, `no-undef` in `.eslintrc` to overcome build errors with JQuery
+* Turned off `no-unused-vars`, `no-undef` in `.eslintrc` to overcome trivial build errors with JQuery
 * JQuery file is now ignored as part of the build process by residing in its own directory
-* `CopyWebpackPlugin` is used to pass the file through to `/dist` without transformation taking place
+* `CopyWebpackPlugin` is used to pass the JQuery file through to `/dist` without transformation taking place
 * bundles two types of Javascript, JQuery is unchanged and passed through whilst regular Javascript is transformed and combined through webpack
 
 ## Todo
