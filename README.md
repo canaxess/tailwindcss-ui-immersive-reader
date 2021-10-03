@@ -33,4 +33,11 @@ A boilerplate npm project for generating TailwindCSS HTML using npm and a build 
 1. run `npm i` to install all dependecies
 2. run `npm run build` to build to the output `/dist` directory
 
+## Notes
+* Turned off `no-unused-vars`, `no-undef` in `.eslintrc` to overcome build errors with JQuery
+* JQuery file is now ignored as part of the build process by residing in its own directory
+* `CopyWebpackPlugin` is used to pass the file through to `/dist` without transformation taking place
+* bundles two types of Javascript, JQuery is unchanged and passed through whilst regular Javascript is transformed and combined through webpack
+* **CORS error occurs on the immersive reader API endpoint as the UI component is not residing in the same location as the API endpoint**
+
 

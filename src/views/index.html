@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <html lang="en-AU">
     <head>
-        <title>Static Website Template</title>
+        <title>Azure Immersive Reader</title>
         <module href="/components/head.html"></module>
     </head>
 
     <body>
-        <h1>Static Website Template</h1>
+        <div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl">
+            <div class="md:flex">
+                <div class="p-10">
+                    <div class="uppercase tracking-wide text-sm text-blue-500 font-semibold">Azure Immersive Reader</div>
+                    <a href="https://www.canaxess.com.au/articles/using-azure-helps-users-with-lower-levels-literacy/" class="block mt-1 text-lg leading-tight font-medium text-black hover:underline">Using Azure to help users with lower levels of literacy</a>
+                    
+                    <div id="content">
+                        <p class="mt-2 text-gray-500">Immersive reader is a Microsoft Azure cognitive services tool to help a user's ability to understand content on a page.</p>
+                        <p class="mt-2 text-gray-500">If complex web content can't be rewritten immersive reader can be a helpful addition to allow users with dyslexia, ADHD and autism to understand complex terms and conform to WCAG 2.1 AAA success criteria.</p>
+                        <p class="mt-2 text-gray-500">It's a single API call which displays a dialog containing the page content and a range of reading options including highlighting nouns, verbs and adjectives.</p>
+                    </div>
+
+                    <button id="IR" class="px-4 mt-4 py-3 text-sm text-blue-600 font-semibold border border-blue-200 hover:text-white hover:bg-blue-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2">Try it out</button>
+                </div>
+            </div>
+        </div>
+        <script src="./scripts/bundle.js"></script>
     </body>
 </html>

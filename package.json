@@ -2,7 +2,7 @@
   "name": "boilerplat-npm-html",
   "version": "1.0.0",
   "description": "Boilerplate npm project for generating new HTML page",
-  "main": "index.js",
+  "main": "bundle.js",
   "scripts": {
     "css:scss": "node-sass --output-style compressed -o dist src/scss",
     "css:autoprefixer": "postcss -u autoprefixer -r dist/*.css",
@@ -27,6 +27,7 @@
     "autoprefixer": "^10.3.6",
     "babel-loader": "^8.2.2",
     "browser-sync": "^2.27.5",
+    "copy-webpack-plugin": "^9.0.1",
     "eslint": "^7.32.0",
     "eslint-loader": "^4.0.2",
     "htmlnano": "^1.1.1",

@@ -1,9 +1,18 @@
+const CopyWebpackPlugin = require('copy-webpack-plugin');
+
 module.exports = {
     entry: './src/js/main.js',
     output: {
-        path: __dirname + '/dist',
+        path: __dirname + '/dist/scripts',
         filename: 'bundle.js'
     },
+    plugins: [
+        new CopyWebpackPlugin({
+            patterns: [
+                { from: './src/jquery/immersiveReader.js', to: 'jquery/immersiveReader.js' }
+            ]
+        }),
+    ],
     module: {
         rules: [
             {
