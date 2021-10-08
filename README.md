@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fd7dde4c-a23b-4b8c-9902-f33dd0c422a6/deploy-status)](https://app.netlify.com/sites/tailwindcss-ui-immersive-reader/deploys)
+
 # Tailwind CSS UI for Immersive Reader
 * main entry point is `bundle.js`
 
