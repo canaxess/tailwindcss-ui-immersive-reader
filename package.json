@@ -1,7 +1,7 @@
 {
-  "name": "boilerplat-npm-html",
+  "name": "tailwindcss-ui-immersive-reader",
   "version": "1.0.0",
-  "description": "Boilerplate npm project for generating new HTML page",
+  "description": "TailwindCSS UI for Azure Immersive Reader",
   "main": "bundle.js",
   "scripts": {
     "css:scss": "node-sass --output-style compressed -o dist src/scss",
@@ -9,7 +9,6 @@
     "css:lint": "stylelint src/scss/*.scss --syntax scss || true",
     "css:tailwind": "postcss src/css/tailwind.css -o dist/tailwind.css",
     "build:css": "npm run css:lint && npm run css:scss && npm run css:autoprefixer && npm run css:tailwind",
-    "build:images": "imagemin src/images/**/* --out-dir=dist/images",
     "build:js": "webpack --mode=production",
     "build:html": "posthtml -c posthtml.json",
     "watch:images": "onchange \"src/images\" -- npm run build:images",
