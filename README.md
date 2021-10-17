@@ -8,7 +8,6 @@ An npm project for demonstrating Azure Immersive Reader using TailwindCSS. Using
 * `onchange` to rebuild CSS whenever a change occurs in an `.scss` file
 * `browser-sync` to run a local web server
 * `bpm-run-all` to run multiple npm-scripts in parallel or sequential mainly for Windows systems
-* `imagemin-cli` to minify images
 * `webpack` & `babel` to use modern JS syntax and transpile into browser compatible JS
 * `eslint` to keep the code more consistent and to avoid bugs
 * `posthtml` & `posthtml-modules` to use HTML partials i.e. `<module href="/components/head.html"></module>`
