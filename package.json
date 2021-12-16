@@ -26,7 +26,7 @@
     "autoprefixer": "^10.3.6",
     "babel-loader": "^8.2.2",
     "browser-sync": "^2.27.5",
-    "copy-webpack-plugin": "^9.0.1",
+    "copy-webpack-plugin": "^10.2.0",
     "eslint": "^7.32.0",
     "eslint-loader": "^4.0.2",
     "htmlnano": "^1.1.1",
