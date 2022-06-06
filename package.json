@@ -27,7 +27,7 @@
     "babel-loader": "^8.2.2",
     "browser-sync": "^2.27.5",
     "copy-webpack-plugin": "^9.0.1",
-    "eslint": "^7.32.0",
+    "eslint": "^8.17.0",
     "eslint-loader": "^4.0.2",
     "htmlnano": "^1.1.1",
     "imagemin-cli": "^7.0.0",
